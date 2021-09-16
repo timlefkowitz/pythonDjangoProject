@@ -1,10 +1,18 @@
+###################################
+#####  Hangman in Python      #####
+###################################
+
 import random
 from words import word_list
+
+# Lets create a word list and grab a random word
 def get_word():
     word  = random.choice(word_list)
     return word.upper()
 
+# Starting point
 def play(word):
+    #
     word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
@@ -114,11 +122,11 @@ def display_hangman(tries):
     def main():
         word = get_word()
         play(word)
-        while input("Play Again? (Y/N) ").upper() == "Y":
-            word = get_word()
-            play(word)
-
-
-
-    main()
+    #     while input("Play Again? (Y/N) ").upper() == "Y":
+    #         word = get_word()
+    #         play(word)
+    #
+    #
+    #
+    # main()
 
