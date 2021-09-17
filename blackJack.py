@@ -4,13 +4,12 @@
 
 #
 # Rules of Simple Blackjack:
-# * Object is to get a better hand than the dealer, without the value of your hand going above 21
-# * Pip cards are worth their face value
-# * Face cards are all worth 10
-# * Aces are always high, worth 11
-# * Dealer draws 2 cards, but only one is shown
-# * Player draws 2 cards, both are shown
-# * Player chooses whether to stay or hit
+
+
+
+
+
+
 # * No matter what the player chooses, the dealer shows their second card and must hit again if their hand is below 17
 # * Once both the dealer and the player have drawn/not drawn, the values are added up and a winner is determined
 # * The hands are resolved in this order:
@@ -50,4 +49,26 @@
 import os
 import random
 
+                # * Dealer draws 2 cards, but only one is shown
+                #
+                 # * Player draws 2 cards, both are shown
+                 # * Player chooses whether to stay or hit
+dealer = 'computer'
+player = 'user'
+
 deck = [2,3,4,5,6,7,8,9,10,11,12,13,14]*4
+
+
+## * Pip cards are worth their face value
+pipcard =
+
+
+# * Face cards are all worth 10
+facecards =
+
+# * Aces are always high, worth 11
+ace = 11
+
+# * Object is to get a better hand than the dealer, without the value of your hand going above 21
+
+
