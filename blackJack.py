@@ -28,6 +28,11 @@
 class deck:
                      #cards
     deck = [2,3,4,5,6,7,8,9,10,11,12,13,14]
+
+
+                     # * Create a deck class that has functions to create/initialize the deck, shuffle the deck, and draw a card
+
+
     def deal(self):
         self.deck = self.deck
 
@@ -35,12 +40,16 @@ class user:
     userHand = []
     def usersHand(self):
         self.userHand = self.userHand
-    
+
+class card:
+    suit = []
+    value =[]
     
 # card. Here's a rough outline of how I went about writing this:
 #
 # * Create a card class that contains 2 variables, suit and value
-# * Create a deck class that has functions to create/initialize the deck, shuffle the deck, and draw a card
+
+
 # * In the main program, when the program first starts up, call the function to initialize the deck and shuffle the deck
 # * Then call the draw card function as needed and keep track of the cards drawn
 #
