@@ -32,6 +32,17 @@ class deck:
 
                      # * Create a deck class that has functions to create/initialize the deck, shuffle the deck, and draw a card
 
+    def shuffle(self):
+        self.deck = self.deck.shuffle()
+
+    def create(self):
+        self.deck = self.create()
+
+    def init(self):
+        self.init = self.init()
+
+    def drawCard(self):
+        print(random.choice(deck))
 
     def deal(self):
         self.deck = self.deck
@@ -44,14 +55,12 @@ class user:
 class card:
     suit = []
     value =[]
-    
-# card. Here's a rough outline of how I went about writing this:
-#
-# * Create a card class that contains 2 variables, suit and value
-
 
 # * In the main program, when the program first starts up, call the function to initialize the deck and shuffle the deck
 # * Then call the draw card function as needed and keep track of the cards drawn
+#                     ^^^  Id like to do this in    by picking a random element
+
+
 #
 # Tips/Tricks
 # * A List in python can easily be used as a stack since there's a built-in pop() function. Pop() returns the last item in the List
