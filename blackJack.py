@@ -20,6 +20,23 @@
 #     5) Raw total
 #
 # Use classes! Classes make this easier than it sounds. When I wrote this, I made a class for the deck and a class for an individual
+#                                                                                       ^^^ I like this
+
+
+
+
+class deck:
+                     #cards
+    deck = [2,3,4,5,6,7,8,9,10,11,12,13,14]
+    def deal(self):
+        self.deck = self.deck
+
+class user:
+    userHand = []
+    def usersHand(self):
+        self.userHand = self.userHand
+    
+    
 # card. Here's a rough outline of how I went about writing this:
 #
 # * Create a card class that contains 2 variables, suit and value
@@ -53,14 +70,24 @@ import random
                 #
                  # * Player draws 2 cards, both are shown
                  # * Player chooses whether to stay or hit
+
+                 # AI and User
 dealer = 'computer'
 player = 'user'
+                # AI functions
 
-deck = [2,3,4,5,6,7,8,9,10,11,12,13,14]*4
+                # def drawingCards (){
+                #
+                # }
+
+dealerHand = []
+playerHand = []
+
+
 
 
 ## * Pip cards are worth their face value
-pipcard =
+pipcard =  cardsValue
 
 
 # * Face cards are all worth 10
